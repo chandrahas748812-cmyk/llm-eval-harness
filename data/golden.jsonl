@@ -1,0 +1,10 @@
+{"id": "g1", "question": "What is the enterprise cancellation window?", "context": "Enterprise contracts include a 30-day cancellation window from the signature date.", "expected": "30 days from signature"}
+{"id": "g2", "question": "How are enterprise refunds calculated?", "context": "Refunds for enterprise plans are pro-rated based on unused service days.", "expected": "Pro-rated by unused service days"}
+{"id": "g3", "question": "Are standard plans refundable?", "context": "Standard (non-enterprise) plans are billed monthly and are non-refundable after 7 days.", "expected": "No, non-refundable after 7 days"}
+{"id": "g4", "question": "How do I request a refund?", "context": "To request a refund, contact billing@acme.com with your contract ID.", "expected": "Email billing@acme.com with contract ID"}
+{"id": "g5", "question": "What uptime triggers SLA credits?", "context": "SLA credits are issued automatically when uptime falls below 99.9% in a month.", "expected": "Below 99.9% monthly uptime"}
+{"id": "g6", "question": "How long is enterprise onboarding support?", "context": "Enterprise onboarding includes a dedicated solutions engineer for 90 days.", "expected": "90 days with a solutions engineer"}
+{"id": "g7", "question": "What is the data retention period?", "context": "Customer data is retained for 13 months after contract termination, then purged.", "expected": "13 months after termination"}
+{"id": "g8", "question": "Is SSO available on standard plans?", "context": "SSO via SAML is available on enterprise plans only; standard plans use email auth.", "expected": "No, enterprise only"}
+{"id": "g9", "question": "What regions are supported?", "context": "The platform runs in us-east-1, eu-west-1, and ap-southeast-2.", "expected": "us-east-1, eu-west-1, ap-southeast-2"}
+{"id": "g10", "question": "What is the API rate limit?", "context": "API rate limits are 1000 requests per minute per API key on enterprise plans.", "expected": "1000 requests per minute per key"}
